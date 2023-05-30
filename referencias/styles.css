@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #555;
+  }
+  
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilos específicos */
+  #education {
+    margin-top: 10px;
+  }
+  
+  #education th {
+    background-color: #f2f2f2;
+  }
+  
+  #education td {
+    text-align: center;
+  }
+  
+  #education tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  #icon{
+    font-size: 28px;
+  }

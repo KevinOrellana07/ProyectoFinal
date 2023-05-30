@@ -1,0 +1,37 @@
+.estilo1 {
+    color: orange;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.estilo2 {
+    color: red;
+    background-color: darkgreen;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.estilo3 {
+    color: blueviolet;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body.estilo1 {
+    background-color: #ff0000;
+}
+  
+body.estilo2 {
+    background-color: #0000ff;
+}
+  
+body.estilo3 {
+    background-color: #00ff00;
+}
+
+#icon{
+    font-size: 28px;
+    color: black;
+}

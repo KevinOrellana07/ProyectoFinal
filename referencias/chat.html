@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./chat.css">
+  <title>Chat con Firebase</title>
+</head>
+<body>
+  <a href="../index.html" class="proyecto"><ion-icon name="return-down-back-outline" id="icon"></ion-icon></a>
+  <div class="flex-container-row">
+    <div>
+      <h3>Chat utilizando Firebase</h3>
+    </div>
+    <div>
+      <img id="imagenLogo" src="https://umg.edu.gt/assets/umg.png">
+    </div>
+  </div>
+  <div class="flex-container-row">
+          <div>Estas conectado Como:</div>
+  </div>
+  <div class="flex-container-row">
+       <div id="usuarioConectado"><b>No conectado</b></div>
+  </div>
+  <div class="flex-container-row">
+       <button class="botonIniciar" id="botonIniciar">Iniciar sesion</button>
+       <button class="botonCerrar" id="botonCerrar" style="display:none">Cerrar sesion</button>
+  </div>
+  <div class="flex-container-row">
+    <div id ="mensajesChat">
+       Aca deben aparecer los mensajes
+    </div>
+  </div>  
+  <div class="flex-container-row">
+    <input type="text" id="textoMensaje" placeholder="Escribe tu mensaje y presiona enter">
+  </div>
+  <script src="./chat.js" type="module"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
